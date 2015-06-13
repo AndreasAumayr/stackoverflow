@@ -1,8 +1,8 @@
 package at.aumand.stackoverflow.question30646707;
 
-import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 
 public class ObjectElement {
-	@XmlAttribute
+	@XmlElement(type = String.class)
 	public Object testVar = "testValue";
 }
